@@ -23,9 +23,8 @@ int parse_int(char*);
  */
 /*************************************************************************************************************************/
 void miniMaxSum( int arr_count,int* arr) {
-int i;
-int j;
-long long max=0,min=0,sum=0;
+int i,j;
+long long max=0,min=0;
 for(j=0; j<arr_count-1;j++)
 {
 for(i=0; i<arr_count-1;i++)
