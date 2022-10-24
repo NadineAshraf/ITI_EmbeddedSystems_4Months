@@ -25,11 +25,12 @@ int parse_int(char*);
 void miniMaxSum( int arr_count,int* arr) {
 int i,j;
 long long max=0,min=0;
+long long temp;
 for(j=0; j<arr_count-1;j++)
 {
 for(i=0; i<arr_count-1;i++)
 {
-    long long temp;
+    
     if(arr[i]>arr[i+1])
     {
         temp=arr[i];
