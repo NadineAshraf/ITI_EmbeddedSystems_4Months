@@ -2,7 +2,7 @@
 
 int main()
 {
-   int i,num;
+   int num;
    printf("Input number: ");
    scanf("%d",&num);
   if((num & 1) == 1)
@@ -18,3 +18,4 @@ int main()
      
     return 0;
 }
+
