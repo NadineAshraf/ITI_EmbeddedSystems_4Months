@@ -11,9 +11,13 @@ int main()
    {
        printf("Maximum = %d",num1);
    }
-   else
+   else if(num2>num1)
    {
         printf("Maximum = %d",num2);
+   }
+   else
+   {
+       printf("Both are equal");
    }
 
 
