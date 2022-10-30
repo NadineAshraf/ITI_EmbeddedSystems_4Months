@@ -5,7 +5,7 @@ int main()
    int num;
    printf("Input number: ");
    scanf("%d",&num);
-  if((num & 1) == 1)
+  if(num & 1)
   {
         printf("LSB of %d is set (1).", num);
   }
