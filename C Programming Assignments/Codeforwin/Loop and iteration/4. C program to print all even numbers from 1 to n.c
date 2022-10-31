@@ -6,7 +6,7 @@ int main ()
   printf("Input upper range: ");
   scanf("%d",&num);
   printf("Even numbers between 1 to 10:\n");
-  for(i=0; i<=num; i++)
+  for(i=2; i<=num; i+=2)
   {
       if(i == num)
       {
