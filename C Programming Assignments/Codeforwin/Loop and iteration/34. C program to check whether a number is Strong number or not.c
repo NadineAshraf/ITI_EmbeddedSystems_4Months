@@ -13,7 +13,7 @@ int factorial (int digit)
 }
 int main()
 {
-   int num,sum=0,originalNum,lastDigit,digits;
+   int num,sum=0,originalNum,lastDigit;
    printf("Input number: ");
    scanf("%d",&num);
    originalNum = num;
