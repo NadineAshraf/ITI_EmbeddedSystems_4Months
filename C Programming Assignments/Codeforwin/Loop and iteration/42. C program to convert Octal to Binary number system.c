@@ -3,7 +3,7 @@
 int main()
 {
     int OctalValue[] = { 0,1,10,011,100,101,110,111};
-    int temp,digit,num,i,index=0,flag=0,binary=0,place=1;
+    int temp,digit,num,binary=0,place=1;
     printf("Input binary number: ");
     scanf("%d",&num);
     temp=num;
