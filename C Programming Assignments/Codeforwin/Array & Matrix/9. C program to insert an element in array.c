@@ -2,9 +2,10 @@
 
 int main()
 {
-    int i,arr[5],x,pos,size=5;
+    int i,x,pos,size=5;
+    int arr[size];
     printf("Input array elements: ");
-    for(i=0; i<5; i++)
+    for(i=0; i<size; i++)
     {
         scanf("%d, ",&arr[i]);
     }
@@ -31,7 +32,5 @@ int main()
     }
     }
     
-
-
     return 0;
 }
