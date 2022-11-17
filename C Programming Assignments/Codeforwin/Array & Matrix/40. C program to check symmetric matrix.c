@@ -6,23 +6,31 @@
   
 int main()
 {
-    int arr[SIZE][SIZE],i,j,flag=0;
+    int arr1[SIZE][SIZE],arr2[SIZE][SIZE],i,j,flag=1;
     printf("Input array in matrix: ");
     for(i=0; i<ROW; i++)
     {
         for(j=0; j<COL; j++)
         {
-            scanf("%d",&arr[i][j]);
+            scanf("%d",&arr1[i][j]);
         }
     }
-     for(i=0; i<ROW; i++)
+     for(i=0; i<ROW && flag; i++)
     {
         for(j=0; j<COL; j++)
         {
-           if(arr[i][j] == arr[j][i])
-           {
-               flag=1;
-           }
+           arr2[i][j] = arr1[j][i];
+        }
+    }
+      for(i=0; i<ROW; i++)
+    {
+        for(j=0; j<COL; j++)
+        {
+            if(arr1[i][j] != arr2[i][j])
+            {
+              flag=0;
+              break;
+            }
         }
     }
 if(flag == 1)
