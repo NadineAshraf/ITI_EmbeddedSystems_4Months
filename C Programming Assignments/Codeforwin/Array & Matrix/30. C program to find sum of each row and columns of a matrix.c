@@ -1,7 +1,7 @@
 #include <stdio.h>
 #define ROW  3
 #define COL  3
-
+#define SIZE 3  
   
 int main()
 {
