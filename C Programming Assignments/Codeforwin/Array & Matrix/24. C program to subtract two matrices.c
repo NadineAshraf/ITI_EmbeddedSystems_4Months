@@ -22,7 +22,7 @@ int main()
             scanf("%d",&arr2[i][j]);
         }
     }
-    printf("Sum of both matrix = \n");
+    printf("Difference of both matrix = \n");
      for(i=0; i<ROW; i++)
     {
         for(j=0; j<COL; j++)
