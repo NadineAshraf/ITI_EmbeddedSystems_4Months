@@ -5,7 +5,7 @@
   
 int main()
 {
-    int arr[SIZE][SIZE],i,j,flag=0;
+    int arr[SIZE][SIZE],i,j,flag=1;
     printf("Input array elements: ");
     for(i=0; i<ROW; i++)
     {
@@ -18,9 +18,13 @@ int main()
     {
         for(j=0; j<COL; j++)
         {
-            if( i == j && arr[i][j] == 1)
+            if( i == j && arr[i][j] != 1)
             {
-                flag=1;
+                flag=0;
+            }
+            else if(i!=j && arr[i][j]!= 0)
+            {
+                flag = 0;
             }
         }
     }
