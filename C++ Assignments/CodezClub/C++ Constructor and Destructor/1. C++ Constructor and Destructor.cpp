@@ -33,10 +33,9 @@ Cube::~Cube()
 int main()
 {
    Cube c1;
-   double vol;
    cout<<"Enter the side length:\n";
    c1.Input();
-   cout<<"Enter volume of cube: ";
+   cout<<"Volume of cube: ";
    cout<<c1.volume();
   
 
