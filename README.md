@@ -3,4 +3,4 @@
    
    **Python Assignments:** Powered by Hackerrank.
    
-   **C++ Assignments:** Powered by Exercism.
+   **C++ Assignments:** Powered by Exercism & Hackerrank.
