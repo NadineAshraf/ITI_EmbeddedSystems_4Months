@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
    int x;
-   long y;
+   long long y;
    char ch;
    float f;
    double d;
