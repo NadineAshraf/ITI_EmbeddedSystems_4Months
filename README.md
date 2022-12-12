@@ -3,4 +3,6 @@
    
    **Python Assignments:** Powered by Hackerrank.
    
-   **C++ Assignments:** Powered by Exercism & Hackerrank.
+   **C++ Assignments:** Powered by Exercism & Hackerrank & Codeforces. 
+   
+Codeforces : https://codeforces.com/group/MWSDmqGsZm/contests?f0a28=1
