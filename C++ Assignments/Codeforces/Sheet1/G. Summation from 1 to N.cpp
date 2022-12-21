@@ -4,13 +4,9 @@ using namespace std;
 
 int main()
 {
-   long long int N,i,sum=0;
-   cin>>N;
-   for(i=1; i<=N; i++)
-   {
-       sum+=i;
-   }
-   cout<<sum;
-  
+    long long N;
+    cin>>N;
+    cout<<(N*(N+1))/2;
+
     return 0;
 }
