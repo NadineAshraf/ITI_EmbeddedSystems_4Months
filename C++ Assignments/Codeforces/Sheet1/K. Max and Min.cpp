@@ -7,19 +7,19 @@ int main()
     signed long long int A,B,C;
     cin>>A>>B>>C;
     signed long long int max,min;
-    if(A>B && A>C)
+    if(A>=B && A>=C)
     {
         max = A;
     }
-    else if(B>A && B>C)
+    else if(B>=A && B>=C)
     {
         max = B;
     }
-    else if(C>A && C>B)
+    else if(C>=A && C>=B)
     {
         max = C;
     }
-    if(A<B && A<C)
+    if(A<=B && A<=C)
     {
         min = A;
     }
@@ -27,7 +27,7 @@ int main()
     {
         min = B;
     }
-    else if(C<A && C<B)
+    else if(C<=A && C<=B)
     {
         min = C;
     }
