@@ -33,5 +33,5 @@ int main()
   cout<<"Positive: "<<pos<<"\n";
   cout<<"Negative: "<<neg<<"\n";
    
-
+return 0;
 }
