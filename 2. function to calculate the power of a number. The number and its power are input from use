@@ -1,0 +1,21 @@
+#include <stdio.h>
+void Power(int num, int power)
+{
+    int result=1;
+   while(power != 0)
+   {
+      result*=num;
+       power--;
+   }
+   printf("Result = %d",result);
+}
+int main()
+{
+    int n,p;
+    printf("Please enter the number: ");
+    scanf("%d",&n);
+    printf("Please enter the power: ");
+    scanf("%d",&p);
+    Power(n,p);
+    return 0;
+}
