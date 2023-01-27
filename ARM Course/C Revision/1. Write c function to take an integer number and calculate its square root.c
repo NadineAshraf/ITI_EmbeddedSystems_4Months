@@ -11,7 +11,7 @@ float SquareRoot(int num)
         ans = mid;
         break;
     }
-    if(mid*mid < num)
+    else if(mid*mid < num)
     {
         ans = start;
         start = mid+1;
@@ -20,7 +20,7 @@ float SquareRoot(int num)
     {
         end = mid -1;
     }
-}
+   }
     float increment = 0.1;
     for(int i=0; i<5; i++)
     {
