@@ -1,7 +1,7 @@
 #include <stdio.h>
 void SetBit(int number, int bit)
 {
-   number |=(1 << bit);
+   number |=(1 << (bit-1));
    printf("Number = %d",number);
 }
 int main()
