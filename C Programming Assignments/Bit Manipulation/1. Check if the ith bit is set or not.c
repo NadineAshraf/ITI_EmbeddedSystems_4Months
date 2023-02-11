@@ -1,7 +1,7 @@
 #include <stdio.h>
 void CheckBit(int number, int bit)
 {
-    number = number >> bit;
+    number = number >> (bit-1);
     if(number & 1)
     {
         printf("SET");
